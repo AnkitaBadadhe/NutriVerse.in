@@ -1,0 +1,19 @@
+# Node Dependencies
+node_modules/
+**/node_modules/
+
+# Production Builds
+dist/
+build/
+**/dist/
+**/build/
+
+# Java Target
+target/
+**/target/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+*.log
