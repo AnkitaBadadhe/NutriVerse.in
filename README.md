@@ -4,7 +4,7 @@
 
 ### **India's Premier AI-Powered Precision Clinical Nutrition & Telehealth Ecosystem**
 
-[![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nutri-verse-in-five.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nutri-verse-in.vercel.app/)
 [![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://nutriverse-backend.onrender.com)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -14,7 +14,9 @@
 
 <br/>
 
-[Live Demo](https://nutri-verse-in-five.vercel.app/) • [API Endpoint](https://nutriverse-backend.onrender.com/api/v1/nutrition/subscription/plans) • [Documentation](#-project-structure) • [Report Bug](https://github.com/AnkitaBadadhe/NutriVerse.in/issues)
+🌐 **[Live Application URL: https://nutri-verse-in.vercel.app/](https://nutri-verse-in.vercel.app/)**
+
+[Live Demo](https://nutri-verse-in.vercel.app/) • [API Endpoint](https://nutriverse-backend.onrender.com/api/v1/nutrition/subscription/plans) • [Documentation](#-project-structure) • [Report Bug](https://github.com/AnkitaBadadhe/NutriVerse.in/issues)
 
 ---
 
@@ -83,22 +85,22 @@
 ## 📸 Screenshots
 
 <details open>
-<summary><b>📷 Click to collapse / expand application interface mockups</b></summary>
+<summary><b>📷 Click to collapse / expand application interface screenshots</b></summary>
 
 <br/>
 
 | Page / Feature | Live Interface Preview |
 | :--- | :--- |
-| **Hero Landing & AI Health Overview** | <img src="./screenshots/hero-section.png" width="450" alt="Hero Landing Page" /> |
-| **AI Blood Report OCR Diagnostic Suite** | <img src="./screenshots/blood-ocr.png" width="450" alt="Blood Report OCR Diagnostic Suite" /> |
-| **7-Day ICMR Precision Meal Planner** | <img src="./screenshots/meal-planner.png" width="450" alt="7-Day ICMR Precision Meal Planner" /> |
-| **AI Hydration Ring & Circadian Fasting Clock** | <img src="./screenshots/hydration-fasting.png" width="450" alt="AI Hydration & Fasting Clock" /> |
-| **Family Health Leaderboard & Habit Streaks** | <img src="./screenshots/family-leaderboard.png" width="450" alt="Family Health Leaderboard" /> |
-| **Refrigerator & Pantry Vision Scanner** | *[Send screenshot to upload]* |
-| **At-Home Biomarker & DNA Kit Scheduler** | *[Send screenshot to upload]* |
-| **20 Verified Telehealth Doctor Roster** | *[Send screenshot to upload]* |
-| **Tiered Subscription Paywall Modal** | *[Send screenshot to upload]* |
-| **256-Bit Payment Gateway Checkout** | *[Send screenshot to upload]* |
+| **1. Hero Landing & AI Health Overview** | <img src="./screenshots/hero-section.png" width="450" alt="Hero Landing Page" /> |
+| **2. AI Blood Report OCR Diagnostic Suite** | <img src="./screenshots/blood-ocr.png" width="450" alt="Blood Report OCR Diagnostic Suite" /> |
+| **3. 7-Day ICMR Precision Meal Planner** | <img src="./screenshots/meal-planner.png" width="450" alt="7-Day ICMR Precision Meal Planner" /> |
+| **4. AI Hydration Ring & Circadian Fasting Clock** | <img src="./screenshots/hydration-fasting.png" width="450" alt="AI Hydration & Fasting Clock" /> |
+| **5. Family Health Leaderboard & Habit Streaks** | <img src="./screenshots/family-leaderboard.png" width="450" alt="Family Health Leaderboard" /> |
+| **6. Refrigerator & Pantry Vision Scanner** | <img src="./screenshots/pantry-scanner.png" width="450" alt="Pantry & Refrigerator AI Scanner" /> |
+| **7. At-Home Biomarker & DNA Kit Scheduler** | <img src="./screenshots/lab-kit.png" width="450" alt="At-Home Biomarker Blood & DNA Kit Scheduler" /> |
+| **8. 20 Verified Telehealth Doctor Roster** | <img src="./screenshots/telehealth.png" width="450" alt="20 Verified Telehealth Doctor Marketplace" /> |
+| **9. Tiered Subscription Paywall Modal** | <img src="./screenshots/paywall.png" width="450" alt="Tiered Subscription Paywall Modal" /> |
+| **10. 256-Bit Payment Gateway Checkout** | <img src="./screenshots/payment-gateway.png" width="450" alt="256-Bit Payment Gateway Checkout" /> |
 
 </details>
 
@@ -108,12 +110,17 @@
 
 ```bash
 NutriVerse.in/
-├── 📁 screenshots/                  # High-Resolution Application Feature Screenshots
+├── 📁 screenshots/                  # High-Resolution Application Feature Screenshots (10/10 Complete)
 │   ├── 🖼️ hero-section.png
 │   ├── 🖼️ blood-ocr.png
 │   ├── 🖼️ meal-planner.png
 │   ├── 🖼️ hydration-fasting.png
-│   └── 🖼️ family-leaderboard.png
+│   ├── 🖼️ family-leaderboard.png
+│   ├── 🖼️ pantry-scanner.png
+│   ├── 🖼️ lab-kit.png
+│   ├── 🖼️ telehealth.png
+│   ├── 🖼️ paywall.png
+│   └── 🖼️ payment-gateway.png
 │
 ├── 📁 nutriverse-frontend/          # React 19 + Vite Frontend Application
 │   ├── 📁 src/
@@ -203,7 +210,7 @@ JWT_SECRET=404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
 The project is architected for decoupled cloud deployment:
 
 - **Frontend (Vercel)**:
-  - Deployed on Vercel Edge CDN for instant worldwide delivery.
+  - Deployed at **[https://nutri-verse-in.vercel.app/](https://nutri-verse-in.vercel.app/)**.
   - Automatically rebuilds on push to the `main` branch.
 - **Backend (Render)**:
   - Deployed as a Dockerized Java container on Render Web Services.
