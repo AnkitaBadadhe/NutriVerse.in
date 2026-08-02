@@ -82,18 +82,23 @@
 
 ## 📸 Screenshots
 
-<details>
-<summary><b>📷 Click to view application interface mockups</b></summary>
+<details open>
+<summary><b>📷 Click to collapse / expand application interface mockups</b></summary>
 
 <br/>
 
-| Page / Feature | Interface Preview |
+| Page / Feature | Live Interface Preview |
 | :--- | :--- |
-| **Hero Landing & Video Modal** | `![Hero Section Placeholder](https://raw.githubusercontent.com/AnkitaBadadhe/NutriVerse.in/main/nutriverse-frontend/public/hero-preview.png)` |
-| **AI Blood OCR Diagnostic Suite** | `![Blood OCR Placeholder](https://raw.githubusercontent.com/AnkitaBadadhe/NutriVerse.in/main/nutriverse-frontend/public/ocr-preview.png)` |
-| **7-Day Meal Planner & Thalis** | `![Meal Planner Placeholder](https://raw.githubusercontent.com/AnkitaBadadhe/NutriVerse.in/main/nutriverse-frontend/public/meal-preview.png)` |
-| **Hydration & Fasting Clock** | `![Fasting Tracker Placeholder](https://raw.githubusercontent.com/AnkitaBadadhe/NutriVerse.in/main/nutriverse-frontend/public/fasting-preview.png)` |
-| **Tiered Paywall & Checkout** | `![Paywall Modal Placeholder](https://raw.githubusercontent.com/AnkitaBadadhe/NutriVerse.in/main/nutriverse-frontend/public/paywall-preview.png)` |
+| **Hero Landing & AI Health Overview** | <img src="./screenshots/hero-section.png" width="450" alt="Hero Landing Page" /> |
+| **AI Blood Report OCR Diagnostic Suite** | <img src="./screenshots/blood-ocr.png" width="450" alt="Blood Report OCR Diagnostic Suite" /> |
+| **7-Day ICMR Precision Meal Planner** | <img src="./screenshots/meal-planner.png" width="450" alt="7-Day ICMR Precision Meal Planner" /> |
+| **AI Hydration Ring & Circadian Fasting Clock** | <img src="./screenshots/hydration-fasting.png" width="450" alt="AI Hydration & Fasting Clock" /> |
+| **Family Health Leaderboard & Habit Streaks** | <img src="./screenshots/family-leaderboard.png" width="450" alt="Family Health Leaderboard" /> |
+| **Refrigerator & Pantry Vision Scanner** | *[Send screenshot to upload]* |
+| **At-Home Biomarker & DNA Kit Scheduler** | *[Send screenshot to upload]* |
+| **20 Verified Telehealth Doctor Roster** | *[Send screenshot to upload]* |
+| **Tiered Subscription Paywall Modal** | *[Send screenshot to upload]* |
+| **256-Bit Payment Gateway Checkout** | *[Send screenshot to upload]* |
 
 </details>
 
@@ -103,6 +108,13 @@
 
 ```bash
 NutriVerse.in/
+├── 📁 screenshots/                  # High-Resolution Application Feature Screenshots
+│   ├── 🖼️ hero-section.png
+│   ├── 🖼️ blood-ocr.png
+│   ├── 🖼️ meal-planner.png
+│   ├── 🖼️ hydration-fasting.png
+│   └── 🖼️ family-leaderboard.png
+│
 ├── 📁 nutriverse-frontend/          # React 19 + Vite Frontend Application
 │   ├── 📁 src/
 │   │   ├── 📁 components/          # Glassmorphic UI Modules (Hero, Paywall, Fasting, Leaderboard)
