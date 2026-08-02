@@ -1,0 +1,61 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+spring:
+  application:
+    name: nutriverse-backend
+
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/nutriverse_db}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      idle-timeout: 300000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      timeout: 2000ms
+
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/nutriverse_catalog}
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:demo-key-nutriverse}
+      chat:
+        options:
+          model: gpt-4o
+          temperature: 0.2
+
+# Application Configuration Tokens
+nutriverse:
+  security:
+    jwt:
+      secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      expiration-ms: 86400000 # 24 Hours
+  ai:
+    vector-store:
+      distance-type: COSINE
+      dimensions: 1536
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus,info
