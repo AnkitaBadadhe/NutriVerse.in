@@ -38,6 +38,9 @@ spring:
         options:
           model: gpt-4o
           temperature: 0.2
+    vectorstore:
+      pgvector:
+        initialize-schema: false
 
 # Application Configuration Tokens
 nutriverse:
