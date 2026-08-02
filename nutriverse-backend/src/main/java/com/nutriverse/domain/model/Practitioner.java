@@ -35,4 +35,7 @@ public class Practitioner {
 
     @Column(name = "is_verified", nullable = false)
     private Boolean isVerified;
+
+    @Column(name = "is_available", nullable = false)
+    private Boolean isAvailable;
 }

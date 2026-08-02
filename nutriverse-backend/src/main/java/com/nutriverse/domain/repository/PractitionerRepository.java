@@ -10,5 +10,6 @@ import java.util.UUID;
 @Repository
 public interface PractitionerRepository extends JpaRepository<Practitioner, UUID> {
     List<Practitioner> findBySpecialty(String specialty);
+    List<Practitioner> findByIsVerifiedTrue();
     List<Practitioner> findByIsAvailableTrue();
 }
